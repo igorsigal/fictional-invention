@@ -1,0 +1,198 @@
+SmithLangleyWashingtonLeeCageCaseyMaloneyRickardsRogersWilliamsFarrelPetersonPachetoRichardsonJerseyBrownMillerThompsonScottRobinson11:21:06.863 INFO  ca.uhn.fhir.util.VersionUtil - HAPI FHIR version 4.2.0 - Rev 8491707942
+11:21:06.886 INFO  ca.uhn.fhir.context.FhirContext - Creating new FHIR context for FHIR version [R4]
+11:21:07.825 INFO  ca.uhn.fhir.util.XmlUtil - FHIR XML procesing will use StAX implementation 'Java Runtime Environment' version '1.8.0_66'
+11:21:07.936 INFO  SampleClient - ============== 1 LOOP STARTS  =================
+11:21:07.937 INFO  SampleClient - Sending request for Smith
+11:21:09.927 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/metadata HTTP/1.1
+11:21:10.272 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 339ms
+11:21:10.609 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Smith HTTP/1.1
+11:21:11.304 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 695ms
+11:21:11.419 INFO  SampleClient - Sending request for Langley
+11:21:11.419 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Langley HTTP/1.1
+11:21:11.733 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 314ms
+11:21:11.735 INFO  SampleClient - Sending request for Washington
+11:21:11.736 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Washington HTTP/1.1
+11:21:12.040 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 304ms
+11:21:12.059 INFO  SampleClient - Sending request for Lee
+11:21:12.060 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Lee HTTP/1.1
+11:21:12.579 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 519ms
+11:21:12.606 INFO  SampleClient - Sending request for Cage
+11:21:12.606 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Cage HTTP/1.1
+11:21:12.910 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 304ms
+11:21:12.912 INFO  SampleClient - Sending request for Casey
+11:21:12.913 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Casey HTTP/1.1
+11:21:13.208 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 294ms
+11:21:13.210 INFO  SampleClient - Sending request for Maloney
+11:21:13.210 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Maloney HTTP/1.1
+11:21:13.506 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 296ms
+11:21:13.514 INFO  SampleClient - Sending request for Rickards
+11:21:13.515 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Rickards HTTP/1.1
+11:21:13.806 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 291ms
+11:21:13.807 INFO  SampleClient - Sending request for Rogers
+11:21:13.808 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Rogers HTTP/1.1
+11:21:14.369 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 561ms
+11:21:14.414 INFO  SampleClient - Sending request for Williams
+11:21:14.414 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Williams HTTP/1.1
+11:21:14.889 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 474ms
+11:21:14.950 INFO  SampleClient - Sending request for Farrel
+11:21:14.950 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Farrel HTTP/1.1
+11:21:15.302 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 352ms
+11:21:15.348 INFO  SampleClient - Sending request for Peterson
+11:21:15.350 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Peterson HTTP/1.1
+11:21:15.743 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 393ms
+11:21:15.746 INFO  SampleClient - Sending request for Pacheto
+11:21:15.746 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Pacheto HTTP/1.1
+11:21:16.041 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 295ms
+11:21:16.043 INFO  SampleClient - Sending request for Richardson
+11:21:16.043 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Richardson HTTP/1.1
+11:21:16.441 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 398ms
+11:21:16.446 INFO  SampleClient - Sending request for Jersey
+11:21:16.447 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Jersey HTTP/1.1
+11:21:16.771 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 324ms
+11:21:16.772 INFO  SampleClient - Sending request for Brown
+11:21:16.773 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Brown HTTP/1.1
+11:21:17.309 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 536ms
+11:21:17.348 INFO  SampleClient - Sending request for Miller
+11:21:17.348 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Miller HTTP/1.1
+11:21:17.823 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 475ms
+11:21:17.863 INFO  SampleClient - Sending request for Thompson
+11:21:17.863 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Thompson HTTP/1.1
+11:21:18.478 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 615ms
+11:21:18.512 INFO  SampleClient - Sending request for Scott
+11:21:18.512 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Scott HTTP/1.1
+11:21:19.276 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 764ms
+11:21:19.323 INFO  SampleClient - Sending request for Robinson
+11:21:19.323 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Robinson HTTP/1.1
+11:21:19.829 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 506ms
+11:21:19.841 INFO  SampleClient - ============== 1 LOOP RESULTS =================
+11:21:19.841 INFO  ResponseInterceptor - Client average response time:  in 430
+11:21:19.841 INFO  SampleClient - ============== 1  LOOP ENDS   =================
+11:21:24.842 INFO  SampleClient - ============== 2 LOOP STARTS  =================
+11:21:24.842 INFO  SampleClient - Sending request for Smith
+11:21:24.843 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Smith HTTP/1.1
+11:21:25.448 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 605ms
+11:21:25.476 INFO  SampleClient - Sending request for Langley
+11:21:25.476 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Langley HTTP/1.1
+11:21:25.550 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 74ms
+11:21:25.551 INFO  SampleClient - Sending request for Washington
+11:21:25.551 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Washington HTTP/1.1
+11:21:25.643 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 91ms
+11:21:25.647 INFO  SampleClient - Sending request for Lee
+11:21:25.648 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Lee HTTP/1.1
+11:21:25.897 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 248ms
+11:21:25.930 INFO  SampleClient - Sending request for Cage
+11:21:25.931 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Cage HTTP/1.1
+11:21:26.026 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 95ms
+11:21:26.029 INFO  SampleClient - Sending request for Casey
+11:21:26.029 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Casey HTTP/1.1
+11:21:26.094 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 65ms
+11:21:26.095 INFO  SampleClient - Sending request for Maloney
+11:21:26.095 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Maloney HTTP/1.1
+11:21:26.162 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 67ms
+11:21:26.163 INFO  SampleClient - Sending request for Rickards
+11:21:26.163 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Rickards HTTP/1.1
+11:21:26.236 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 73ms
+11:21:26.237 INFO  SampleClient - Sending request for Rogers
+11:21:26.238 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Rogers HTTP/1.1
+11:21:26.551 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 313ms
+11:21:26.583 INFO  SampleClient - Sending request for Williams
+11:21:26.584 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Williams HTTP/1.1
+11:21:26.835 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 251ms
+11:21:26.878 INFO  SampleClient - Sending request for Farrel
+11:21:26.879 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Farrel HTTP/1.1
+11:21:27.001 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 122ms
+11:21:27.015 INFO  SampleClient - Sending request for Peterson
+11:21:27.016 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Peterson HTTP/1.1
+11:21:27.092 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 76ms
+11:21:27.094 INFO  SampleClient - Sending request for Pacheto
+11:21:27.095 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Pacheto HTTP/1.1
+11:21:27.159 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 64ms
+11:21:27.161 INFO  SampleClient - Sending request for Richardson
+11:21:27.161 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Richardson HTTP/1.1
+11:21:27.305 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 144ms
+11:21:27.313 INFO  SampleClient - Sending request for Jersey
+11:21:27.313 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Jersey HTTP/1.1
+11:21:27.378 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 65ms
+11:21:27.379 INFO  SampleClient - Sending request for Brown
+11:21:27.379 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Brown HTTP/1.1
+11:21:27.670 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 291ms
+11:21:27.691 INFO  SampleClient - Sending request for Miller
+11:21:27.692 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Miller HTTP/1.1
+11:21:27.947 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 255ms
+11:21:27.998 INFO  SampleClient - Sending request for Thompson
+11:21:27.998 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Thompson HTTP/1.1
+11:21:28.409 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 411ms
+11:21:28.452 INFO  SampleClient - Sending request for Scott
+11:21:28.452 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Scott HTTP/1.1
+11:21:28.991 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 539ms
+11:21:29.017 INFO  SampleClient - Sending request for Robinson
+11:21:29.017 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Robinson HTTP/1.1
+11:21:29.274 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 257ms
+11:21:29.281 INFO  SampleClient - ============== 2 LOOP RESULTS =================
+11:21:29.282 INFO  ResponseInterceptor - Client average response time:  in 205
+11:21:29.282 INFO  SampleClient - ============== 2  LOOP ENDS   =================
+11:21:34.283 INFO  SampleClient - ============== 3 LOOP STARTS  =================
+11:21:34.283 INFO  SampleClient - Sending request for Smith
+11:21:34.286 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Smith HTTP/1.1
+11:21:35.003 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 717ms
+11:21:35.059 INFO  SampleClient - Sending request for Langley
+11:21:35.059 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Langley HTTP/1.1
+11:21:35.372 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 313ms
+11:21:35.373 INFO  SampleClient - Sending request for Washington
+11:21:35.373 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Washington HTTP/1.1
+11:21:35.679 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 306ms
+11:21:35.681 INFO  SampleClient - Sending request for Lee
+11:21:35.681 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Lee HTTP/1.1
+11:21:36.174 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 493ms
+11:21:36.193 INFO  SampleClient - Sending request for Cage
+11:21:36.193 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Cage HTTP/1.1
+11:21:36.494 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 301ms
+11:21:36.496 INFO  SampleClient - Sending request for Casey
+11:21:36.497 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Casey HTTP/1.1
+11:21:36.799 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 302ms
+11:21:36.801 INFO  SampleClient - Sending request for Maloney
+11:21:36.801 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Maloney HTTP/1.1
+11:21:37.100 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 299ms
+11:21:37.101 INFO  SampleClient - Sending request for Rickards
+11:21:37.102 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Rickards HTTP/1.1
+11:21:37.406 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 304ms
+11:21:37.408 INFO  SampleClient - Sending request for Rogers
+11:21:37.408 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Rogers HTTP/1.1
+11:21:37.950 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 542ms
+11:21:37.984 INFO  SampleClient - Sending request for Williams
+11:21:37.985 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Williams HTTP/1.1
+11:21:38.471 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 486ms
+11:21:38.503 INFO  SampleClient - Sending request for Farrel
+11:21:38.504 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Farrel HTTP/1.1
+11:21:38.860 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 356ms
+11:21:38.884 INFO  SampleClient - Sending request for Peterson
+11:21:38.884 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Peterson HTTP/1.1
+11:21:39.201 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 317ms
+11:21:39.210 INFO  SampleClient - Sending request for Pacheto
+11:21:39.210 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Pacheto HTTP/1.1
+11:21:39.504 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 293ms
+11:21:39.506 INFO  SampleClient - Sending request for Richardson
+11:21:39.506 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Richardson HTTP/1.1
+11:21:39.947 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 441ms
+11:21:39.951 INFO  SampleClient - Sending request for Jersey
+11:21:39.952 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Jersey HTTP/1.1
+11:21:40.255 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 303ms
+11:21:40.256 INFO  SampleClient - Sending request for Brown
+11:21:40.256 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Brown HTTP/1.1
+11:21:40.828 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 572ms
+11:21:40.863 INFO  SampleClient - Sending request for Miller
+11:21:40.863 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Miller HTTP/1.1
+11:21:41.595 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 732ms
+11:21:41.606 INFO  SampleClient - Sending request for Thompson
+11:21:41.606 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Thompson HTTP/1.1
+11:21:42.517 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 911ms
+11:21:42.551 INFO  SampleClient - Sending request for Scott
+11:21:42.552 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Scott HTTP/1.1
+11:21:43.787 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 1235ms
+11:21:43.822 INFO  SampleClient - Sending request for Robinson
+11:21:43.822 INFO  ResponseInterceptor - Client request: GET http://hapi.fhir.org/baseR4/Patient?family=Robinson HTTP/1.1
+11:21:44.526 INFO  ResponseInterceptor - Client response: HTTP 200 OK in 704ms
+11:21:44.554 INFO  SampleClient - ============== 3 LOOP RESULTS =================
+11:21:44.554 INFO  ResponseInterceptor - Client average response time:  in 496
+11:21:44.554 INFO  SampleClient - ============== 3  LOOP ENDS   =================
+11:21:44.554 INFO  SampleClient - ==============     THE END    =================
