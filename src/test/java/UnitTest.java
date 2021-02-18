@@ -72,8 +72,8 @@ public class UnitTest {
                 .returnBundle(Bundle.class)
                 .execute();
     	
-    	String strResourceType = null;
-    	String strPatientLastName = null;
+    	String strResourceType = "";
+    	String strPatientLastName = "";
     	
     	List<BundleEntryComponent> entries = response.getEntry();
     	if(entries != null && !entries.isEmpty()){
