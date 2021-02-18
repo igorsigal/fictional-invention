@@ -41,6 +41,7 @@ public class UnitTest {
         }
         Assert.assertTrue(!listOfPeopleLastNames.isEmpty());
         Assert.assertTrue(listOfPeopleLastNames.size() == 20);
+        Assert.assertTrue(listOfPeopleLastNames.stream().anyMatch(DATA_PATIENT_FAMILY_SMITH::equalsIgnoreCase));
 	}
 	
 	@Test	
