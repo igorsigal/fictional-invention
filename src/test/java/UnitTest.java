@@ -6,8 +6,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.hl7.fhir.r4.model.Base;
 import org.hl7.fhir.r4.model.Bundle;
+import org.hl7.fhir.r4.model.Bundle.BundleEntryComponent;
 import org.hl7.fhir.r4.model.Patient;
+import org.hl7.fhir.r4.model.Property;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Assert;
@@ -21,6 +24,9 @@ import ca.uhn.fhir.rest.client.api.IGenericClient;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class UnitTest {
+		
+	static final String DATA_RESOURCE_PATIENT_TYPE = "Patient";
+	static final String DATA_PATIENT_FAMILY_SMITH = "SMITH";
 
 	@Test	
 	public void test1_readFile() {
@@ -61,13 +67,27 @@ public class UnitTest {
         
     	Bundle response = client
                 .search()
-                .forResource("Patient")
-                .where(Patient.FAMILY.matches().value("SMITH")) 
+                .forResource(DATA_RESOURCE_PATIENT_TYPE)
+                .where(Patient.FAMILY.matches().value(DATA_PATIENT_FAMILY_SMITH)) 
                 .returnBundle(Bundle.class)
-                .execute();	
+                .execute();
+    	
+    	String strResourceType = null;
+    	String strPatientLastName = null;
+    	
+    	List<BundleEntryComponent> entries = response.getEntry();
+    	if(entries != null && !entries.isEmpty()){
+    		strResourceType = response.getEntry().get(0).getResource().getResourceType().toString();
+    		strPatientLastName = response.getEntry().get(0).getResource().
+    				getNamedProperty("name").getValues().get(0).
+    				getNamedProperty("family").getValues().get(0).toString();
+    	}
     	
     	long timeResponse = ((ResponseInterceptor)clientInterceptor).calculateAverage();
     	Assert.assertTrue(timeResponse > 0);
+    	
+    	Assert.assertTrue(strResourceType.equals(DATA_RESOURCE_PATIENT_TYPE));
+    	Assert.assertTrue(strPatientLastName.toUpperCase().equals(DATA_PATIENT_FAMILY_SMITH));
 
 	}
 
